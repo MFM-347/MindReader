@@ -2,11 +2,10 @@
 An Android Game Built with HTML/JS/BootStrap
 
 ## Author
-The Mind Reader JS script is not mine, I copied, it from an old javascript snippet collection software, and used it in ths App. I searched for its Author and found this name "**Tatsuya Takemura**" from a article published in 1997s. I'm not sure whether he is the author or not. But for now I'm writing **Tatsuya Takemura** as author of this script.
+The JavaScript snippet, used in this project, is not mine.  I searched for its Author and found "**Tatsuya Takemura**". I'm not sure, but for now I'm writing **Tatsuya Takemura** as author of this snippet.
 
 ## Credits
-Javascript Snippet by Tatsuya Takemura
-
+JavaScript Snippet by Tatsuya Takemura
 Created by [Farhan Madni](https://github.com/MFM-347)
 ### I Used
 [BootStrap](https://github.com/twbs/bootstrap) For UI Styling
