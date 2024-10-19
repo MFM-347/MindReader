@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind Reader Game</title>
+  <link href="./lib/bootstrap.css" rel="stylesheet">
+  <link rel="icon" href="icons/icon.svg" sizes="any" type="image/svg+xml">
+  <meta name="theme-color" content="#0d6efd">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <button id="btn" class="fixed-top m-2 btn">
+      <span class="fw-bold mode"></span> Mode
+    </button>
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center"><img width="75%" src="icons/icon.svg" alt="App Icon">
+        <h1>Mind Reader Game</h1>
+        <p class="lead">Think of a number,
+          and let the computer read your mind !</p><button id="startGame" class="btn btn-primary btn-lg">Start
+          Game</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mind Reader Game</h5><button type="button"
+            class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="gameMessage"></div>
+        <div class="modal-footer"><button type="button" class="btn btn-secondary"
+            data-bs-dismiss="modal">Close</button><button type="button" id="nextStep" class="btn btn-primary">Next
+            Step</button></div>
+      </div>
+    </div>
+  </div>
+  <div class="fixed-bottom m-2">Created By <a href="https://github.com/MFM-347"
+      class="fw-bold link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">MFM-347</a>
+  </div>
+  <script src="./lib/jquery.min.js"></script>
+  <script src="./lib/popper.min.js"></script>
+  <script src="./lib/bootstrap.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
